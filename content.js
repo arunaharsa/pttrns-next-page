@@ -1,13 +1,13 @@
 $(document).ready(function() {
   var currPage = findGetParameter('page');
-  currPage = currPage ? currPage : 0;
+  currPage = currPage ? currPage : 1;
   currPage = parseInt(currPage, 10);
   var nextPage = currPage + 1;
   var prevPage = currPage - 1;
 
   var z = '';
   z += '<h2 class="custom-pager">';
-  if (prevPage >= 0) {
+  if (prevPage > 0) {
     z += '<a href="?page=' + prevPage + '">&larr; Prev Page</a>';
   }
   z += '<a href="?page=' + nextPage + '">Next Page &rarr;</a>';
