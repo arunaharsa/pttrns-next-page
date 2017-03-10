@@ -8,7 +8,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["jquery.min.js", "content.js"],
-    "matches": ["http://pttrns.com/*"]
+    "matches": ["http://pttrns.com/*", "https://pttrns.com/*"]
   }]
 
 }
