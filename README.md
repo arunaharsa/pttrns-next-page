@@ -1,3 +1,4 @@
-# Create a Chrome extension to modify a website's HTML or CSS
+# A Chrome extension to add "Next page" to pttrns.com (normally it has to be paid ver)
 
-See post: https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
+1. To run it, open chrome://extensions/ and drop this folder there
+2. refresh pttrns.com
